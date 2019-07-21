@@ -25,6 +25,10 @@ Cloning the repository You will find a base CRA app. Please extend the existing 
 - Feel free to use any NPM packages You want
 - use React
 
+Inspiration:
+
+https://codepen.io/ajduke/pen/YrOMjG
+
 #### Influencer card (required):
 
 - Clicking on the toast message (except when closing it) should redirect to a nested influencer page
@@ -33,6 +37,10 @@ Cloning the repository You will find a base CRA app. Please extend the existing 
 - Once user redirected to influencer page render the influencer data in a "card" style
 - Make it responsive
 - use React
+
+Inspiration:
+
+http://designify.me/inspiration/11-codepen-examples-for-ui-cards/#.XTQPnegzZBA
 
 #### Bonus points (optional, but will be appreciated):
 
