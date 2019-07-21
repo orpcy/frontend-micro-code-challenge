@@ -27,6 +27,10 @@ Cloning the repository You will find a base CRA app. Please extend the existing 
 - use ES6
 - use either SASS, CSSinJS or Styled Components for styles
 
+Inspiration:
+
+https://codepen.io/ajduke/pen/YrOMjG
+
 #### Influencer card (required):
 
 - Clicking on the toast message (except when closing it) should redirect to a nested influencer page
@@ -37,6 +41,10 @@ Cloning the repository You will find a base CRA app. Please extend the existing 
 - use React
 - use ES6
 - use either SASS, CSSinJS or Styled Components for styles
+
+Inspiration:
+
+http://designify.me/inspiration/11-codepen-examples-for-ui-cards/#.XTQPnegzZBA
 
 #### Bonus points (optional, but will be appreciated):
 
