@@ -24,6 +24,8 @@ Cloning the repository You will find a base CRA app. Please extend the existing 
 - Make it responsive
 - Feel free to use any NPM packages You want
 - use React
+- use ES6
+- use either SASS, CSSinJS or Styled Components for styles
 
 #### Influencer card (required):
 
@@ -33,6 +35,8 @@ Cloning the repository You will find a base CRA app. Please extend the existing 
 - Once user redirected to influencer page render the influencer data in a "card" style
 - Make it responsive
 - use React
+- use ES6
+- use either SASS, CSSinJS or Styled Components for styles
 
 #### Bonus points (optional, but will be appreciated):
 
