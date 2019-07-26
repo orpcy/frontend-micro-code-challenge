@@ -13,7 +13,7 @@ Clone the repository and create a new branch with `code-challenge-<yourname>`
 
 ### Instructions
 
-Cloning the repository You will find a base CRA app. Please extend the existing app with these specs: 
+Develop the local features locally:
 
 #### Toast message (required):
 
@@ -23,9 +23,6 @@ Cloning the repository You will find a base CRA app. Please extend the existing 
 - Feel free to position the toast as You prefer.
 - Make it responsive
 - Feel free to use any NPM packages You want
-- use React
-- use ES6
-- use either SASS, CSSinJS or Styled Components for styles
 
 Inspiration:
 
@@ -35,16 +32,23 @@ https://codepen.io/ajduke/pen/YrOMjG
 
 - Clicking on the toast message (except when closing it) should redirect to a nested influencer page
 - Update URL path accordingly (incorporate influencer ID)
-- Use React-Router for routing
 - Once user redirected to influencer page render the influencer data in a "card" style
 - Make it responsive
-- use React
-- use ES6
-- use either SASS, CSSinJS or Styled Components for styles
 
 Inspiration:
 
 http://designify.me/inspiration/11-codepen-examples-for-ui-cards/#.XTQPnegzZBA
+
+#### Tools to use:
+
+- React JS
+- JS || TS (Typescript usage is optional)
+- ES6
+- SASS || CSSinJS || Styled components || Other style solutions
+- MUI || Semantic UI || Custom || Other UI solutions
+- Jest (Writing unit tests is optional)
+- Cypress (Writing E2E tests is optional)
+- Anything else You may find useful for this use case
 
 #### Bonus points (optional, but will be appreciated):
 
