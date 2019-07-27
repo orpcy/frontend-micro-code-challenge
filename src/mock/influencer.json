@@ -10,6 +10,7 @@
         "phone": "+1111111",
         "ownPromocode": "winthecode",
         "refPromoCode": "viivadevteam",
-        "refName": "Code Guy Referrer"
+        "refName": "Code Guy Referrer",
+        "imageUrl": "https://randomuser.me/api/portraits/women/68.jpg"
     }
 ]
