@@ -1,10 +1,14 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 import Toast from "react-bootstrap/Toast";
 import mock from "../mock/influencer.json";
 
 class ToastContainer extends Component {
   state = {
     show: false
+  };
+
+  handleClick = id => {
+    this.props.history.push(`/card/${id}`);
   };
 
   render() {
@@ -31,7 +35,7 @@ class ToastContainer extends Component {
           </Toast.Header>
           <Toast.Body>
             {mock.map((m, i) => (
-              <p key={i}>
+              <p key={i} onClick={() => this.handleClick(m.influencerId)}>
                 {m.fullName}
               </p>
             ))}

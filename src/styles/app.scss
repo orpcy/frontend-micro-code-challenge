@@ -73,3 +73,89 @@ html {
     }
   }
 }
+
+.cardWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+
+  .card {
+    max-width: 350px;
+    width: 100%;
+    box-shadow: 0px 6px 0px 0px #dbdbdb, 0px 0px 15px 0px #bbb;
+    transition: box-shadow 0.25s, -webkit-box-shadow 0.25s;
+    border-radius: 2px;
+
+    .card-body {
+      padding: 0;
+
+      .socialWrap {
+        box-shadow: 0px 6px 0px 0px #dbdbdb, 0px 0px 15px 0px #bbb;
+        transition: all 0.3s;
+        border-radius: 10px;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        margin-top: 6px;
+        cursor: pointer;
+
+        .social {
+          padding: 12px 20px;
+          display: inline-grid;
+          grid-template-columns: auto auto;
+          grid-gap: 25px;
+
+          h5 {
+            margin-bottom: 0;
+          }
+
+          span {
+            font-size: 14px;
+            color: #919191;
+          }
+        }
+
+        .fb {
+          .fa-facebook {
+            color: #3b5998;
+          }
+
+          h5 {
+            color: #3b5998;
+          }
+        }
+
+        .em {
+          .fa-envelope {
+            color: #d14836;
+          }
+
+          h5 {
+            color: #d14836;
+          }
+        }
+
+        .ig {
+          .fa-instagram {
+            color: #e1306c;
+          }
+
+          h5 {
+            color: #e1306c;
+          }
+        }
+      }
+    }
+
+    .top-content {
+      padding: 20px 20px 10px 20px;
+      font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+
+      .card-text {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
