@@ -13,33 +13,42 @@ class ToastContainer extends Component {
 
   render() {
     const { show } = this.state;
+    let created_at = new Date();
+    const date =
+      created_at.getFullYear() +
+      "-" +
+      (created_at.getMonth() + 1) +
+      "-" +
+      created_at.getDate();
+    const time =
+      created_at.getHours() +
+      ":" +
+      created_at.getMinutes() +
+      ":" +
+      created_at.getSeconds();
+    created_at = `${date} ${time}`;
+
     return (
       <div>
         <Toast
           id="toast"
           onClose={() => this.setState({ show: false })}
           show={show}
-          style={{
-            position: "absolute",
-            bottom: 0,
-            right: 0
-          }}
         >
           <Toast.Header>
             <img
-              src="holder.js/20x20?text=%20"
+              src="https://findicons.com/files/icons/1676/primo/128/info_black.png"
               className="rounded mr-2"
-              alt=""
+              alt="influencerImg"
             />
             <strong className="mr-auto">Info</strong>
           </Toast.Header>
-          <Toast.Body>
-            {mock.map((m, i) => (
-              <p key={i} onClick={() => this.handleClick(m.influencerId)}>
-                {m.fullName}
-              </p>
-            ))}
-          </Toast.Body>
+          {mock.map((m, i) => (
+            <Toast.Body onClick={() => this.handleClick(m.influencerId)}>
+              <p key={i}>{m.fullName}</p>
+              <small>{created_at}</small>
+            </Toast.Body>
+          ))}
         </Toast>
         <div className="buttons">
           <a className="button1" onClick={() => this.setState({ show: true })}>
